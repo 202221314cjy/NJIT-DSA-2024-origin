@@ -6,7 +6,6 @@ import java.util.function.Predicate;
 import java.util.Comparator;
 
 public class Algorithms {
-    //Generic methods
 
     public static <T> void reverse(T [] array){
         int l=0;
@@ -45,7 +44,6 @@ public class Algorithms {
         return -1;
     }
 
-    //QuickSort
     public static <E extends Comparable<E>> void fastSort(E [] array) {
         quickSort(array, 0, array.length - 1);
     }
